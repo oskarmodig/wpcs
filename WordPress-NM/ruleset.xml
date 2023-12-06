@@ -16,6 +16,7 @@
 		<exclude name="WordPress.Files.FileName.NotHyphenatedLowercase"/>
 
 		<!-- Naming conventions -->
+		<exclude name="WordPress.NamingConventions.ValidVariableName.PropertyNotSnakeCase"/>
 		<exclude name="WordPress.NamingConventions.ValidVariableName.UsedPropertyNotSnakeCase"/>
 	</rule>
 
