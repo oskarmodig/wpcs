@@ -21,7 +21,10 @@
 	</rule>
 
 	<!-- Let's also check that everything is properly documented. -->
-	<rule ref="WordPress-Docs"/>
+	<rule ref="WordPress-Docs">
+		<!-- Commenting -->
+		<exclude name="Squiz.Commenting.FileComment.MissingPackageTag"/>
+	</rule>
 
 
 	<!--
