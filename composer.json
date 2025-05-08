@@ -12,7 +12,8 @@
     }
   ],
   "require": {
-    "kreativabyran/kb-wpcs": "@stable"
+    "wp-coding-standards/wpcs": "^3.0",
+    "squizlabs/php_codesniffer": "*"
   },
   "config": {
     "allow-plugins": {
