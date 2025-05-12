@@ -10,6 +10,8 @@
 		<exclude name="WordPress.Files.FileName.NotHyphenatedLowercase"/>
 		<exclude name="WordPress.NamingConventions.ValidVariableName.PropertyNotSnakeCase"/>
 		<exclude name="WordPress.NamingConventions.ValidVariableName.UsedPropertyNotSnakeCase"/>
+		<!-- Deprecated -->
+		<exclude name="Generic.Functions.CallTimePassByReference"/>
 	</rule>
 
 	<!-- Let's also check that everything is properly documented. -->
